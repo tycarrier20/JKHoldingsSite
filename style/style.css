@@ -1,0 +1,217 @@
+html {
+  scroll-behavior: smooth;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  width: 40%;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggler-icon {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border-style: none;
+}
+/* 
+.navbar-logo {
+    width: 90px;
+  } */
+
+.navbar {
+    /* height: 80px; */
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+  background: white;
+  background: white;
+}
+
+.navbar:hover {
+    background-color: white;
+}
+
+.logo {
+  height: 80px;
+  width: 130px;
+} 
+
+.myLogo {
+
+}
+
+.brands-break {
+  background-color: white;
+  height: 300px;
+  filter: opacity(90%);
+}
+
+.brands-break p {
+  /* position: absolute; */
+  /* right: 30px;
+  top: -90px;   */
+  text-align: center;
+  font-size: 1rem; 
+  color: black;
+}
+
+.brands-break h5{
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.brands-break a {
+  text-align: center;
+  font-size: 1rem; 
+}
+ 
+  .brands {
+    height: 600px;
+    background-color: #d3d3d3;
+  }
+
+  .brandsContent {
+    height: 600px;
+    background-color: #a0a0a0;
+  }
+
+  .dealerships {
+    height: 600px;
+    background-color: #d3d3d3;
+  }
+
+  .dealershipsContent {
+    height: 600px;
+    background-color: #a0a0a0;
+  }
+
+.fa-user-friends {
+  color:#323232;  
+}
+
+.fa-shipping-fast{
+  color:#323232; 
+}
+
+  .about {
+    height: 200px;
+    background-color: white;
+  }
+
+  .about-brands {
+    height: 400px;
+    background-image: url('../img/home/business-people.jpg');
+    filter: opacity(90%);
+  }
+
+  .about h1 {
+    font-size: 1.8rem; 
+    color: #6B829B;
+    font-family: 'Varela', sans-serif;
+  }
+
+  .about-brands p {
+    font-size: 1.5rem; 
+  }
+
+  .about-dealerships {
+    height: 400px;
+    /* background-image: url('../img/home/people.jpg') */
+    background-color: #253B4D;
+    filter: opacity(90%);
+  }
+
+  .about-dealerships p {
+    /* position: absolute; */
+    /* right: 30px;
+    top: -90px;   */
+    text-align: center;
+    font-size: 1rem; 
+    color: white;
+  }
+
+  .aboutContent {
+    height: 600px;
+    background-color: #a0a0a0;
+  }
+
+  .footer {
+    height: 5rem;
+  }
+
+  video::-webkit-media-controls-overlay-play-button {
+    display: none;
+  }
+
+  #myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    /* min-height: 100%; */
+    height:auto;
+    width: 100%;    
+  }
+
+  #videoBlock {
+    width: 100%; 
+    height: auto;  
+    /* display: flex;   */
+    justify-content: center; 
+    align-items: center;
+    z-index: -1;
+  }
+
+  #header {
+    filter: opacity(98%);
+  }
+
+  #headerDealerships {
+    filter: opacity(90%);
+  }
+
+  .videoHeader {
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+    /* color: #F5F5F5; */
+
+  }
+
+  .vidHead {
+    font-size: 4rem;
+    color: #F5F5F5;
+    font-family: 'Varela', sans-serif;
+    
+  }
+
+.nav-link {
+    font-size: 16px !important;
+    color: black !important;
+  }
+
+ .active {
+    color: #007BFF !important;
+  }
+
+.nav-item active {
+  font-size: 16px !important;   
+  }
+
+  /* .brands h1 {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+  } */
