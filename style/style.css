@@ -34,23 +34,11 @@ hr {
 
 }
 
-.navbar.scrolled {
-  background: white;
-  background: white;
-}
-
-.navbar:hover {
-    background-color: white;
-}
-
 .logo {
   height: 80px;
   width: 130px;
 } 
 
-.myLogo {
-
-}
 
 .brands-break {
   background-color: white;
