@@ -154,10 +154,10 @@ hr {
   }
 
   #videoBlock {
+    margin-top: 100px;
     width: 100%; 
     height: auto;  
-    display: flex;
-    justify-content: center; 
+    display: flex; 
     align-items: center;
     z-index: -1;
   }
@@ -172,25 +172,20 @@ hr {
 
 
   .vidHead {
-    font-size: 4rem;
     color: #ffffff;
     font-family: 'Varela', sans-serif;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 40%;
     height: 100%;
     width: 100%;
-    align-items: center;
-    vertical-align: middle;
 }
 
     .vidHeadContents{
-      display: inline-block;
-      height: auto;
-      margin-top: 500px;
-      margin-left: 500px;
+      text-shadow: rgba(0, 0, 0, 0.19) 4px 4px;
+      display: relative;
+      height: 100%;
       color: white;
-      width: auto;
+      width: 100%;
     }
 
 .nav-link {
