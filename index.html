@@ -41,10 +41,20 @@
 
     <!-- Responsive Setting -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+        // scroll functions
+        $(window).scroll(function(e) {
+
+        // add/remove class to navbar when scrolling to hide/show
+        $('.navbar')[$(window).scrollTop() >= 150 ? 'addClass' : 'removeClass']('navbar-hide');
+        });
+    </script>
+
 </head>
 
-<body onload="checkScroll();">
-    <div>
+<body onload="/*checkScroll();*/ sayHello();">
+    <div id="Navbar">
         <nav class=" navbar-inverse navbar fixed-top navbar-expand-lg navbar-light">
             <div class="myLogo mr-auto">
                 <div class="nav navbar-nav navbar-logo">

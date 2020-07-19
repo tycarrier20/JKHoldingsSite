@@ -1,3 +1,4 @@
+/*
 function checkScroll(){
     var startY = $('.navbar').height(); //The point where the navbar changes in px
 
@@ -13,7 +14,7 @@ if($('.navbar').length > 0){
         checkScroll();
     });
 }
-
+*/
 goToDealerships = () => {
     window.location = "dealerships.html";
 }
@@ -21,3 +22,8 @@ goToDealerships = () => {
 goToBrands = () => {
     window.location = "brands.html";
 }
+//Test function for making sure page is linked
+function sayHello() {
+    alert("Hello there");
+ }
+
