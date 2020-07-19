@@ -22,10 +22,10 @@ goToDealerships = () => {
 goToBrands = () => {
     window.location = "brands.html";
 }
-//Test function for making sure page is linked
-function sayHello() {
-    alert("Hello there");
- }
+// //Test function for making sure page is linked
+// function sayHello() {
+//     alert("Hello there");
+//  }
 
  (function ($) {
 
