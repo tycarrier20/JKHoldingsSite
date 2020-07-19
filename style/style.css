@@ -30,7 +30,10 @@ hr {
     -ms-transition: all 0.6s ease-out;
     transition: all 0.6s ease-out;
     /*background-color: white;*/
+}
 
+.navbar:hover {
+  background-color: white;
 }
 
 .navbar-hide {
@@ -111,12 +114,14 @@ hr {
   .about-brands {
     height: 450px;
     width:100%;
-    background-image: url('../img/home/business-people.jpg');
+    background-image: url('../img/home/skyline.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    filter: opacity(90%);
     text-shadow: rgba(0, 0, 0, 0.19) 4px 4px;
+    filter:brightness(1);
+    font-weight: 600;
   }
+
   .brands-content{
     padding: 20px;
     
@@ -139,15 +144,27 @@ hr {
     /* background-image: url('../img/home/people.jpg') */
     background-color: #253B4D;
     filter: opacity(90%);
+    font-family: 'IBM Plex Serif', serif;
+    /* letter-spacing: 2px; */
+  }
+  
+  body {
+    font-family: 'IBM Plex Serif', serif;
+  }
+
+ .about h1 {
+    font-family: 'IBM Plex Serif', serif !important;
+    font-weight: 1000;
   }
 
   .about-dealerships p {
-    /* position: absolute; */
-    /* right: 30px;
-    top: -90px;   */
     text-align: center;
     font-size: 1rem; 
     color: white;
+  }
+
+  .about-brands p {
+    
   }
 
   .aboutContent {
@@ -198,16 +215,24 @@ hr {
     width: 100%;
     height:100%;
     text-shadow: rgba(0, 0, 0, 0.19) 4px 4px;
-    font-size: 10vw !important;
+    font-size: 5vw !important;
     z-index: 1;
     align-items: center;
     justify-content: center;
 }
 
+.btn {
+  border-radius: 30px!important;
+  border: 1px solid transparent!important;
+  white-space: nowrap;
+  font-weight: 400;
+}
+
 .nav-link {
-    font-size: 26px !important;
+    font-size: 18px !important;
     /*color: black !important;*/
-    font-family: 'Julius Sans One', sans-serif;
+    /* font-family: 'Julius Sans One', sans-serif; */
+    font-family: 'Varela', sans-serif;
   }
 
   .nav-link:hover{
@@ -231,3 +256,11 @@ hr {
     margin-right: -50%;
     transform: translate(-50%, -50%) 
   } */
+
+  @media (max-width: 640px) 
+{
+    #mySlider
+    {
+        display: none;
+    }
+}
