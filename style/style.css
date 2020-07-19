@@ -109,19 +109,29 @@ hr {
   }
 
   .about-brands {
-    height: 400px;
+    height: 450px;
+    width:100%;
     background-image: url('../img/home/business-people.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     filter: opacity(90%);
+    text-emphasis: outline;: #ffffff 1px 1px;
+  }
+  .brands-content{
+    padding: 20px;
+    
+  }
+  .brands-content p{
+    color: white;
+    text-shadow: black 2px 2px;
+    font-size: 2rem;
   }
 
   .about h1 {
     font-size: 1.8rem; 
-    color: #6B829B;
+    /*color: #6B829B;*/
+    color: black;
     font-family: 'Varela', sans-serif;
-  }
-
-  .about-brands p {
-    font-size: 1.5rem; 
   }
 
   .about-dealerships {
