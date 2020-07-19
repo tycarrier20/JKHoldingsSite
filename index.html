@@ -43,12 +43,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <script>
-        // scroll functions
-        $(window).scroll(function(e) {
+        (function ($) {
 
-        // add/remove class to navbar when scrolling to hide/show
-        $('.navbar')[$(window).scrollTop() >= 150 ? 'addClass' : 'removeClass']('navbar-hide');
-        });
+            var previousScroll = 20;
+            // scroll functions
+            $(window).scroll(function(e) {
+    
+                // add/remove class to navbar when scrolling to hide/show
+                var scroll = $(window).scrollTop();
+                
+                if (scroll >= previousScroll) {
+                    $('.navbar').addClass("navbar-hide");
+                }else if (scroll < previousScroll) {
+                    $('.navbar').removeClass("navbar-hide").addClass("navbar-show");
+                }
+                previousScroll = scroll;
+
+            });
+        })(jQuery); 
+
+        (function ($) {
+
+            // scroll functions
+            $(window).scroll(function(e) {
+                var scroll = $(window).scrollTop();
+                
+                if (scroll <= 20) {
+                    $('.navbar').removeClass("navbar-show",)
+                }  
+            });
+        })(jQuery);
+
+/*
+*/
+
     </script>
 
 </head>
